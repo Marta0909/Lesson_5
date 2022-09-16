@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+	url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+	url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+	url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+	url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+	url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	src: url("../fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+	url("../fonts/PlayfairDisplay-BlackItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+}
+
+body {
+	font-family: Noto Sans, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: "Playfair Display", serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+a {
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#footer {
+	font-family: "Playfair Display", serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 900;
+}
+
+.text.introduction {
+	font-family: Noto Sans, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+span.simple {
+	font-family: Noto Sans, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+a,
+h3 {
+	color: rgb(221, 44, 115);
+	text-align: left;
+	padding: 10px;
+	}
+
+#top {
+	color: rgb(10, 143, 26);
+	text-shadow: 0px 2px 2px rgb(69, 148, 69);
+	text-transform: uppercase;
+	line-height: 2;
+	padding: 10px;
+}
+
+h2 {
+	color: rgb(18, 132, 184);
+}
+
+div.text {
+	color: hsl(52, 5%, 29%);
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 20px;
+	letter-spacing: 0px;
+	white-space: normal;
+	word-spacing: 1px;
+	padding: 5px 30px 5px;
+	box-sizing: border-box;
+}
+
+.text.introduction {
+	color: #4e4d46;
+	line-height: 1.5;
+	text-indent: 20px;
+	padding: 5px 30px 5px;
+}
+
+h1,
+h2 {
+	text-align: center;
+	text-transform: none;
+}
+
+.hrefff {
+	text-align: right;
+	margin-right: 30px;
+
+}
+
+span.through {
+	text-decoration: line-through;
+}
+
+h3 {
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.text.structure {
+	padding: 10px 10px 10px 20px;
+}
+
+#seventh-rule {
+	margin-bottom: 30px;
+}
+
+.text.introduction {
+	width: 100%;
+}
+
+
+
